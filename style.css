@@ -338,3 +338,28 @@ max-width: 300px;
 .icon:hover{
 transform: scale(0.1rem);
 }
+.btn1{
+  background-color: #16C47F;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif ;
+  cursor: pointer;
+  border: none;
+}
+.btn1 {
+color: whitesmoke;
+
+}
+.btn1 a {
+  text-decoration: none;
+}
+.btn1:hover{
+  text-decoration-line: none;
+}
+.Download{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
