@@ -1,0 +1,316 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  background: linear-gradient(180deg, #4b06f83c, #16c47e8e),url(/img/—Pngtree—galaxy\ galaxy\ starry\ night\ sky_1331894.png) ;
+  min-height: 100vh;
+  color: #fff;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+background-size: cover;  
+}
+.h3{
+  color: #fffefe;
+ }
+.header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+
+}
+.h31{
+  color: #fffefe;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.main-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #f1c40f;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.decorative-border {
+  border-bottom: 2px solid #f1c40f;
+  width: 60%;
+  margin: 1.5rem auto;
+  position: relative;
+}
+
+.decorative-border::after {
+  content: "✻";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #f1c40f;
+  background: #0a3d1d;
+  padding: 0 0.5rem;
+}
+
+.custom-form {
+  margin: 2rem 0;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #f1c40f;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgb(255, 204, 0);
+}
+
+.image-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.image-option {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.image-option:hover {
+  transform: scale(1.05);
+}
+
+.image-option img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.image-option input:checked + img {
+  border: 3px solid #f1c40f;
+  box-shadow: 0 0 20px rgba(241, 196, 15, 0.5);
+}
+
+.submit-btn {
+  background: #f1c40f;
+  color: #0a3d1d;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 1rem auto !important;
+}
+
+.submit-btn:hover {
+  background: #f39c12;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#export-content {
+  position: relative;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#card-preview {
+  position: relative;
+  border-radius: 15px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  width: 80%;
+  margin: 0;
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  border-radius: 25px;
+}
+.tek{
+  font-size: 2rem;
+  font: bolder;
+  text-align: center;
+  background-color: rgb(155, 155, 155) !important; /* تغيير لون الخلفية */
+  padding: 15px 20px !important; /* تعديل المساحة الداخلية */
+  font-family: 'Fustat';
+  background: linear-gradient(180deg, #4b06f83c, rgba(255, 217, 0, 0.39)),url(/img/—Pngtree—galaxy\ galaxy\ starry\ night\ sky_1331894.png) ;
+  background-size:cover;
+}
+.main-control{
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+.controls {
+  
+  width: 100%;
+  bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.download-btn{
+  background-color: #402dc8;
+  color: #fffefe;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font: bold;
+  font-family: sans-serif;
+  font-weight: 700;
+padding: 1rem 2rem;
+margin: 1rem auto !important;
+font-size: 1.2rem;
+transition: all 0.3s ease;
+display: block;
+width: 100%;
+max-width: 300px;
+
+  
+  
+}
+.download-btn:hover{
+  background-color: #2196F3;
+}
+.hide-buttons .card-buttons {
+  display: none !important;
+}
+
+.color-option input:checked + .color-box {
+  box-shadow: 0 0 0 3px #2196F3;
+  transform: scale(1.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.developer-logo {
+  width: 80px;
+  vertical-align: middle;
+  margin: 0 0.5rem;
+}
+
+.credits {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.dev-name {
+  color: #f1c40f;
+  font-weight: 700;
+}
+.color-picker {
+  margin: 20px 0;
+}
+
+.color-picker h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.color-option {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+.color-box {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+/* في ملف style.css */
+
+/* تمييز اللون المختار */
+.color-option input:checked + .color-box {
+  box-shadow: 0 0 0 3px #2196F3;
+  transform: scale(1.1);
+}
+
+/* التنسيقات للجوال */
+@media (max-width: 768px) {
+  .main-card {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .image-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .submit-btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+.download-style {
+  border-radius: 30px !important; /* زيادة التحدير */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3) !important; /* إضافة ظل */
+}
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+.icon:hover{
+transform: scale(0.1rem);
+}
