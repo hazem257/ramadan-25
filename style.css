@@ -195,7 +195,7 @@ background-size: cover;
   font-size: 1.5rem;
   font: bolder;
   text-align: center;
-  padding: 5px !important; /* تعديل المساحة الداخلية */
+  padding: 5px !important; /**/
   font-family: 'Fustat';
   background: linear-gradient(180deg, #4b06f83c, rgba(255, 217, 0, 0.39)),url(/img/—Pngtree—galaxy\ galaxy\ starry\ night\ sky_1331894.png) ;
   background-size:cover;
@@ -298,15 +298,12 @@ max-width: 300px;
   border-radius: 8px;
   border: 2px solid #ddd;
 }
-/* في ملف style.css */
 
-/* تمييز اللون المختار */
 .color-option input:checked + .color-box {
   box-shadow: 0 0 0 3px #2196F3;
   transform: scale(1.1);
 }
 
-/* التنسيقات للجوال */
 @media (max-width: 768px) {
   .main-card {
     margin: 1rem;
@@ -327,8 +324,8 @@ max-width: 300px;
   }
 }
 .download-style {
-  border-radius: 30px !important; /* زيادة التحدير */
-  box-shadow: 0 0 10px rgba(0,0,0,0.3) !important; /* إضافة ظل */
+  border-radius: 30px !important; /*  */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3) !important; /*  */
 }
 .icon {
   cursor: pointer;
