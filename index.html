@@ -101,7 +101,7 @@
   <h3 style="color: #F4F6FF; font-family: monospace;margin-bottom: 20px;" class="h31">اختر لون النص : </h3>
   <div class="color-options">
     <label class="color-option">
-      <input type="radio" name="text-color" value="#000000" hidden checked>
+      <input type="radio" name="text-color" value="#000000" hidden >
       <span class="color-box" style="background: #000"></span>
     </label>
     <label class="color-option">
@@ -170,9 +170,10 @@
 
 <div id="card-content">
    <div id="preview-card" class="preview-card" hidden>
-  <div id="card-content">
+  <div id="card-content"> 
     <img id="selected-image" src="" alt="البطاقة" class="card-image">
-    <div id="text-container" class="text-container"></div>
+       <div id="text-container" class="text-container"></div>
+
     <div class="main-control">
       <div class="controls">
         <button onclick="downloadCard()" class="download-btn">تنزيل البطاقة</button>
