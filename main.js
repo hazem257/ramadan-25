@@ -99,11 +99,9 @@ document.getElementById('cardForm').addEventListener('submit', function(e) {
   cardText.textContent = `${userName}  تقبل الله طاعتكم وكل عام وأنتم بخير رمـضـان كريم`;
   cardText.style.color = textColor;
 });
-// التعديل النهائي في الـ JavaScript
 function downloadCard() {
   const previewCard = document.getElementById('preview-card');
   
-  // إضافة كلاس مؤقت لإخفاء الأزرار
   previewCard.classList.add('hide-buttons');
   
   html2canvas(document.querySelector("#card-content"), {
@@ -117,20 +115,17 @@ function downloadCard() {
     link.href = canvas.toDataURL('image/png', 1.0);
     link.click();
     
-    // إعادة إظهار الأزرار بعد التنزيل
     previewCard.classList.remove('hide-buttons');
   });
 }
-// JavaScript المعدل
 function downloadCard() {
-  // إخفاء مؤقت للأزرار
   const controls = document.querySelector('.controls');
   controls.style.display = 'none';
 
   html2canvas(document.querySelector("#card-content"), {
     useCORS: true,
     allowTaint: false,
-    scale: 2, // لزيادة الدقة
+    scale: 2, 
     logging: true
   }).then(canvas => {
     const link = document.createElement('a');
@@ -138,12 +133,10 @@ function downloadCard() {
     link.href = canvas.toDataURL('image/png');
     link.click();
     
-    // إعادة إظهار الأزرار
     controls.style.display = 'block';
   });
 }
 
-// تعديل دالة العرض
 document.getElementById('cardForm').addEventListener('submit', function(e) {
   e.preventDefault();
   
